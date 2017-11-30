@@ -3,6 +3,7 @@ package com.HybridFrameWork.testBase;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.lang.reflect.Method;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.NoSuchElementException;
@@ -19,9 +20,13 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.ITestResult;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
+import com.relevantcodes.extentreports.LogStatus;
 
 
 
@@ -37,6 +42,57 @@ public class TestBase {
 	public static ExtentTest test;
 	public ITestResult result;
 	
+
+//========//========//========EXTENT REPORT FUNCTIONS//========//========//========//========//========//
+	
+	
+	//Initialize the extent test reports, before any test starts.
+	
+	static {
+		Calendar calendar = Calendar.getInstance();
+		SimpleDateFormat formater = new SimpleDateFormat("dd_MM_yyyy_hh_mm_ss");
+		//False means report will not be overwritten and will be retained.
+		extent = new ExtentReports(System.getProperty("user.dir") + "/src/main/java/com/HybridFrameWork/reports/test" + formater.format(calendar.getTime()) + ".html", false);
+	}	
+	
+	//Perform different operations on the extent report as per the provided test status.
+	public void getresult(ITestResult result) throws IOException {
+		if (result.getStatus() == ITestResult.SUCCESS) {
+			test.log(LogStatus.PASS, result.getName() + " test is pass");
+		} else if (result.getStatus() == ITestResult.SKIP) {
+			test.log(LogStatus.SKIP, result.getName() + " test is skipped and skip reason is:-" + result.getThrowable());
+		} else if (result.getStatus() == ITestResult.FAILURE) {
+			test.log(LogStatus.FAIL, result.getName() + " test is failed" + result.getThrowable());
+			String screen = getScreenShot("");
+			test.log(LogStatus.FAIL, test.addScreenCapture(screen));
+		} else if (result.getStatus() == ITestResult.STARTED) {
+			test.log(LogStatus.INFO, result.getName() + " test is started");
+		}
+	}
+	
+//========//========//========GLOBAL FUNCTIONS//========//========//========//========//========//
+	
+	//Before every test, Get the test name which is going to be started.
+	@BeforeMethod()
+	public void beforeMethod(Method result) {
+		test = extent.startTest(result.getName());
+		test.log(LogStatus.INFO, result.getName() + " test Started");
+	}
+	
+	//After every test, pass the test result to the extent result processing function.
+	@AfterMethod()
+	public void afterMethod(ITestResult result) throws IOException {
+		getresult(result);
+	}
+
+	//After all the tests, perform following
+	@AfterClass(alwaysRun = true)
+	public void endTest() {
+		driver.quit();
+		extent.endTest(test);
+		extent.flush();
+	}
+		
 //========//========//========Initializations FUNCTIONS//========//========//========//========//========//
 
 	
@@ -89,7 +145,7 @@ public class TestBase {
 
 //========//========//========UTILITY FUNCTIONS//========//========//========//========//========//
 	
-	public void getScreenShot(String imageName) throws IOException{
+	public String getScreenShot(String imageName) throws IOException{
 		if(imageName.equals("")){
 			imageName = "blank";
 		}
@@ -103,7 +159,8 @@ public class TestBase {
 		
 		File destFile = new File(actualImageName);
 		FileUtils.copyFile(image, destFile);
-
+		
+		return actualImageName;
 	}
 	
 	//There is no polling value, It continuously look for the element.
@@ -124,12 +181,7 @@ public class TestBase {
 		driver.manage().timeouts().implicitlyWait(time, TimeUnit.SECONDS);
 	}
 	
-	
-	
-	
-	
-	
-	
+
 	
 	public static void main(String[] args) throws IOException {
 		TestBase tb = new TestBase();
