@@ -6,11 +6,13 @@ import java.io.IOException;
 import java.lang.reflect.Method;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
+import java.util.List;
 import java.util.NoSuchElementException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -135,11 +137,91 @@ public class TestBase {
 		
 		F1 = new File(System.getProperty("user.dir") + "/src/main/java/com/HybridFrameWork/config/or.properties");
 		File = new FileInputStream(F1);
-		OR.load(File);	
+		OR.load(File);
+		
+		F1 = new File(System.getProperty("user.dir") + "/src/main/java/com/HybridFrameWork/properties/HomePage.properties");
+		File = new FileInputStream(F1);
+		OR.load(File);
+		
 	}
 	
 	public void getPropertiesData() {
 		
+	}
+	
+	
+//========//========//========LOCATOR FUNCTIONS//========//========//========//========//========//
+	
+	public WebElement getLocator(String locator) throws Exception {
+		//System.out.println(locator);
+        String[] split = locator.split(":");
+		String locatorType = split[0];
+		String locatorValue = split[1];
+		//System.out.println("locatorType:-"+locatorType);
+		//System.out.println("locatorValue:-"+locatorValue);
+		if (locatorType.toLowerCase().equals("id"))
+			return driver.findElement(By.id(locatorValue));
+		else if (locatorType.toLowerCase().equals("name"))
+			return driver.findElement(By.name(locatorValue));
+		else if ((locatorType.toLowerCase().equals("classname"))|| (locatorType.toLowerCase().equals("class")))
+			return driver.findElement(By.className(locatorValue));
+		else if ((locatorType.toLowerCase().equals("tagname"))
+				|| (locatorType.toLowerCase().equals("tag")))
+			return driver.findElement(By.className(locatorValue));
+		else if ((locatorType.toLowerCase().equals("linktext"))
+				|| (locatorType.toLowerCase().equals("link")))
+			return driver.findElement(By.linkText(locatorValue));
+		else if (locatorType.toLowerCase().equals("partiallinktext"))
+			return driver.findElement(By.partialLinkText(locatorValue));
+		else if ((locatorType.toLowerCase().equals("cssselector"))
+				|| (locatorType.toLowerCase().equals("css")))
+			return driver.findElement(By.cssSelector(locatorValue));
+		else if (locatorType.toLowerCase().equals("xpath"))
+			return driver.findElement(By.xpath(locatorValue));
+		else
+			throw new Exception("Unknown locator type '" + locatorType + "'");
+	}
+	
+	
+	
+	public  List<WebElement> getLocators(String locator) throws Exception {
+        String[] split = locator.split(":");
+		String locatorType = split[0];
+		String locatorValue = split[1];
+		System.out.println("locatorType:-"+locatorType);
+		System.out.println("locatorValue:-"+locatorValue);
+
+		if (locatorType.toLowerCase().equals("id"))
+			return driver.findElements(By.id(locatorValue));
+		else if (locatorType.toLowerCase().equals("name"))
+			return driver.findElements(By.name(locatorValue));
+		else if ((locatorType.toLowerCase().equals("classname"))
+				|| (locatorType.toLowerCase().equals("class")))
+			return driver.findElements(By.className(locatorValue));
+		else if ((locatorType.toLowerCase().equals("tagname"))
+				|| (locatorType.toLowerCase().equals("tag")))
+			return driver.findElements(By.className(locatorValue));
+		else if ((locatorType.toLowerCase().equals("linktext"))
+				|| (locatorType.toLowerCase().equals("link")))
+			return driver.findElements(By.linkText(locatorValue));
+		else if (locatorType.toLowerCase().equals("partiallinktext"))
+			return driver.findElements(By.partialLinkText(locatorValue));
+		else if ((locatorType.toLowerCase().equals("cssselector"))
+				|| (locatorType.toLowerCase().equals("css")))
+			return driver.findElements(By.cssSelector(locatorValue));
+		else if (locatorType.toLowerCase().equals("xpath"))
+			return driver.findElements(By.xpath(locatorValue));
+		else
+			throw new Exception("Unknown locator type '" + locatorType + "'");
+	}
+	
+	
+	public WebElement getWebElement(String locator) throws Exception{
+		return getLocator(OR.getProperty(locator));
+	}
+	
+	public List<WebElement> getWebElements(String locator) throws Exception{
+		return getLocators(OR.getProperty(locator));
 	}
 	
 
@@ -185,6 +267,7 @@ public class TestBase {
 	
 	public static void main(String[] args) throws IOException {
 		TestBase tb = new TestBase();
+		
 		tb.loadPropertiesFiles();
 		System.out.println(tb.OR.getProperty("userName"));
 		System.out.println(tb.OR.getProperty("password"));
