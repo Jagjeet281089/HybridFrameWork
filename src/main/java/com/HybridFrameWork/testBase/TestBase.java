@@ -183,7 +183,6 @@ public class TestBase {
 	}
 	
 	
-	
 	public  List<WebElement> getLocators(String locator) throws Exception {
         String[] split = locator.split(":");
 		String locatorType = split[0];
@@ -265,16 +264,15 @@ public class TestBase {
 	
 
 	
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) throws Exception {
 		TestBase tb = new TestBase();
-		
 		tb.loadPropertiesFiles();
 		System.out.println(tb.OR.getProperty("userName"));
-		System.out.println(tb.OR.getProperty("password"));
+			
+		/*System.out.println(tb.OR.getProperty("password"));*/
+		/*System.out.println(tb.getWebElement("userName"));*/
 	}
 
-	
-	
-	
+
 	
 }
