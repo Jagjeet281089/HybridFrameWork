@@ -26,6 +26,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
+import com.HybridFrameWork.excelReader.Excel_reader;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
@@ -43,7 +44,7 @@ public class TestBase {
 	public static ExtentReports extent;
 	public static ExtentTest test;
 	public ITestResult result;
-	
+	public Excel_reader excelreader;
 
 //========//========//========EXTENT REPORT FUNCTIONS//========//========//========//========//========//
 	
@@ -264,11 +265,20 @@ public class TestBase {
 	
 
 	
+	public String[][] getData(String excelName, String sheetName){
+		System.out.println(System.getProperty("user.dir"));
+		String excellocation = System.getProperty("user.dir")+"/src/main/java/com/HybridFrameWork/data/"+excelName;
+		System.out.println(excellocation);
+		excelreader = new Excel_reader();
+		return excelreader.getExcelData(excellocation, sheetName);
+	}
+	
+	
 	public static void main(String[] args) throws Exception {
 		TestBase tb = new TestBase();
 		tb.loadPropertiesFiles();
 		System.out.println(tb.OR.getProperty("userName"));
-			
+		
 		/*System.out.println(tb.OR.getProperty("password"));*/
 		/*System.out.println(tb.getWebElement("userName"));*/
 	}
