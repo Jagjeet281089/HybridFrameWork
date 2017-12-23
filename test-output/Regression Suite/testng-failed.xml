@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Regression Suite]" parallel="classes">
+  <test name="Load Test(failed)" parallel="classes">
+    <classes>
+      <class name="com.HybridFrameWork.getBookingId">
+        <methods>
+          <include name="BookingId"/>
+          <include name="endTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.HybridFrameWork.getBookingId -->
+      <class name="com.HybridFrameWork.getBookingId2">
+        <methods>
+          <include name="setup"/>
+          <include name="BookingId2"/>
+          <include name="endTest"/>
+        </methods>
+      </class> <!-- com.HybridFrameWork.getBookingId2 -->
+      <class name="com.HybridFrameWork.getBookingId3">
+        <methods>
+          <include name="endTest"/>
+          <include name="BookingId3"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.HybridFrameWork.getBookingId3 -->
+    </classes>
+  </test> <!-- Load Test(failed) -->
+</suite> <!-- Failed suite [Regression Suite] -->

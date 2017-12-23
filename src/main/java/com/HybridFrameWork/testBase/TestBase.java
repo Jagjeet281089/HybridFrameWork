@@ -12,6 +12,8 @@ import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -34,7 +36,8 @@ import com.relevantcodes.extentreports.LogStatus;
 
 
 public class TestBase {
-
+	
+	public static final Logger log = Logger.getLogger(TestBase.class.getName());
 	public WebDriver driver;
 	public Properties OR;
 	public File F1;
@@ -50,7 +53,6 @@ public class TestBase {
 	
 	
 	//Initialize the extent test reports, before any test starts.
-	
 	static {
 		Calendar calendar = Calendar.getInstance();
 		SimpleDateFormat formater = new SimpleDateFormat("dd_MM_yyyy_hh_mm_ss");
@@ -91,7 +93,7 @@ public class TestBase {
 	//After all the tests, perform following
 	@AfterClass(alwaysRun = true)
 	public void endTest() {
-		driver.quit();
+		//driver.quit();
 		extent.endTest(test);
 		extent.flush();
 	}
@@ -127,22 +129,29 @@ public class TestBase {
 
 
 	
-//========//========//========PROPERTY FILE FUNCTIONS//========//========//========//========//========//
+//========//========//========PROPERTY FILE FUNCTIONS AND LOGS//========//========//========//========//========//
 
 	public void loadPropertiesFiles()throws IOException{
+		
+		String log4jConfPath = "log4j.properties";
+		PropertyConfigurator.configure(log4jConfPath);
+		
 		OR = new Properties();
 		
 		F1 = new File(System.getProperty("user.dir") + "/src/main/java/com/HybridFrameWork/config/config.properties");
 		File = new FileInputStream(F1);
 		OR.load(File);
+		log.info("######Config.properties file loaded.######");
 		
 		F1 = new File(System.getProperty("user.dir") + "/src/main/java/com/HybridFrameWork/config/or.properties");
 		File = new FileInputStream(F1);
 		OR.load(File);
+		log.info("######or.properties file loaded.######");
 		
 		F1 = new File(System.getProperty("user.dir") + "/src/main/java/com/HybridFrameWork/properties/HomePage.properties");
 		File = new FileInputStream(F1);
 		OR.load(File);
+		log.info("######HomePage.properties file loaded.######");
 		
 	}
 	
@@ -264,6 +273,7 @@ public class TestBase {
 	}
 	
 
+//========//========//========Excel FUNCTIONS//========//========//========//========//========//
 	
 	public String[][] getData(String excelName, String sheetName){
 		System.out.println(System.getProperty("user.dir"));
@@ -272,7 +282,8 @@ public class TestBase {
 		excelreader = new Excel_reader();
 		return excelreader.getExcelData(excellocation, sheetName);
 	}
-	
+
+
 	
 	public static void main(String[] args) throws Exception {
 		TestBase tb = new TestBase();

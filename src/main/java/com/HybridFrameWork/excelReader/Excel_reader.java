@@ -12,11 +12,11 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class Excel_reader {
 	
-	public static final Logger logger  = Logger.getLogger(Excel_reader.class.getName());
+	public static final Logger log  = Logger.getLogger(Excel_reader.class.getName());
 
 	public String[][] getExcelData(String excellocation, String sheetName) {
 		try {
-			logger.info("Creating excel object:-"+excellocation);
+			log.info("Creating excel object:-"+excellocation);
 			String dataSets[][] = null;
 			
 			FileInputStream file = new FileInputStream(new File(excellocation));
@@ -52,32 +52,32 @@ public class Excel_reader {
 						// Check the cell type and format accordingly
 						switch (cell.getCellType()) {
 						case Cell.CELL_TYPE_NUMERIC:
-							System.out.print(k+",");
-							System.out.print(j+",");
+							//System.out.print(k+",");
+							//System.out.print(j+",");
 							dataSets[k][j++] = cell.getStringCellValue();
-							System.out.println(cell.getNumericCellValue());
+							//System.out.println(cell.getNumericCellValue());
 							break;
 						case Cell.CELL_TYPE_STRING:
-							System.out.print(k+",");
-							System.out.print(j+",");
+							//System.out.print(k+",");
+							//System.out.print(j+",");
 							dataSets[k][j++] = cell.getStringCellValue();
-							System.out.println(cell.getStringCellValue());
+							//System.out.println(cell.getStringCellValue());
 							break;
 						case Cell.CELL_TYPE_BOOLEAN:
-							System.out.print(k+",");
-							System.out.print(j+",");
+							//System.out.print(k+",");
+							//System.out.print(j+",");
 							dataSets[k][j++] = cell.getStringCellValue();
-							System.out.println(cell.getStringCellValue());
+							//System.out.println(cell.getStringCellValue());
 							break;
 						case Cell.CELL_TYPE_FORMULA:
-							System.out.print(k+",");
-							System.out.print(j+",");
+							//System.out.print(k+",");
+							//System.out.print(j+",");
 							dataSets[k][j++] = cell.getStringCellValue();
-							System.out.println(cell.getStringCellValue());
+							//System.out.println(cell.getStringCellValue());
 							break;
 						}
 					}
-					System.out.println("");
+					//System.out.println("");
 				}
 			}
 
@@ -90,7 +90,7 @@ public class Excel_reader {
 	}
 
 	public static void main(String[] args) {
-		String excellocation = "/Users/bsingh5/git/seleniumHybridFramework/hybridFramework/src/main/java/com/hybridFramework/data/TestData.xlsx";
+		String excellocation = System.getProperty("user.dir") + "/src/main/java/com/HybridFrameWork/data/TestData.xlsx";
 		String sheetName = "LoginTestData";
 		Excel_reader excel = new Excel_reader();
 		excel.getExcelData(excellocation, sheetName);

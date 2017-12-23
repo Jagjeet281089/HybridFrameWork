@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2143" started-at="2017-12-23T07:38:10Z" finished-at="2017-12-23T07:38:12Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2143" started-at="2017-12-23T07:38:10Z" finished-at="2017-12-23T07:38:12Z">
+      <class name="com.HybridFrameWork.Test2">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.HybridFrameWork.Test2@8a8f7c]" name="beforeMethod" is-config="true" duration-ms="24" started-at="2017-12-23T13:08:11Z" finished-at="2017-12-23T13:08:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.HybridFrameWork.Test2.testLogin(java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.HybridFrameWork.Test2@8a8f7c]" name="testLogin" duration-ms="6" started-at="2017-12-23T13:08:11Z" data-provider="testData" finished-at="2017-12-23T13:08:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[automation@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.HybridFrameWork.Test2@8a8f7c]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2017-12-23T13:08:11Z" finished-at="2017-12-23T13:08:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.HybridFrameWork.Test2.testLogin(java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.HybridFrameWork.Test2@8a8f7c]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-12-23T13:08:11Z" finished-at="2017-12-23T13:08:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogin status=SUCCESS method=Test2.testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.HybridFrameWork.Test2@8a8f7c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.HybridFrameWork.Test2@8a8f7c]" name="testLogin" duration-ms="1" started-at="2017-12-23T13:08:12Z" data-provider="testData" finished-at="2017-12-23T13:08:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[automation@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.HybridFrameWork.Test2@8a8f7c]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-12-23T13:08:12Z" finished-at="2017-12-23T13:08:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogin status=SUCCESS method=Test2.testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.HybridFrameWork.Test2@8a8f7c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.HybridFrameWork.Test2@8a8f7c]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2017-12-23T13:08:12Z" finished-at="2017-12-23T13:08:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.HybridFrameWork.Test2.testLogin(java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.HybridFrameWork.Test2@8a8f7c]" name="testLogin" duration-ms="3" started-at="2017-12-23T13:08:12Z" data-provider="testData" finished-at="2017-12-23T13:08:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[automation@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[n]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.HybridFrameWork.Test2@8a8f7c]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-12-23T13:08:12Z" finished-at="2017-12-23T13:08:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogin status=SUCCESS method=Test2.testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.HybridFrameWork.Test2@8a8f7c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.HybridFrameWork.Test2@8a8f7c]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-12-23T13:08:12Z" finished-at="2017-12-23T13:08:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.HybridFrameWork.Test2.testLogin(java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.HybridFrameWork.Test2@8a8f7c]" name="testLogin" duration-ms="1" started-at="2017-12-23T13:08:12Z" data-provider="testData" finished-at="2017-12-23T13:08:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[automation@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[n]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.HybridFrameWork.Test2@8a8f7c]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-12-23T13:08:12Z" finished-at="2017-12-23T13:08:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogin status=SUCCESS method=Test2.testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.HybridFrameWork.Test2@8a8f7c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.HybridFrameWork.Test2@8a8f7c]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-12-23T13:08:12Z" finished-at="2017-12-23T13:08:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.HybridFrameWork.Test2.testLogin(java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.HybridFrameWork.Test2@8a8f7c]" name="testLogin" duration-ms="1" started-at="2017-12-23T13:08:12Z" data-provider="testData" finished-at="2017-12-23T13:08:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[automation@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[n]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.HybridFrameWork.Test2@8a8f7c]" name="afterMethod" is-config="true" duration-ms="3" started-at="2017-12-23T13:08:12Z" finished-at="2017-12-23T13:08:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogin status=SUCCESS method=Test2.testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.HybridFrameWork.Test2@8a8f7c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.HybridFrameWork.Test2@8a8f7c]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2017-12-23T13:08:12Z" finished-at="2017-12-23T13:08:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.HybridFrameWork.Test2.testLogin(java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.HybridFrameWork.Test2@8a8f7c]" name="testLogin" duration-ms="1" started-at="2017-12-23T13:08:12Z" data-provider="testData" finished-at="2017-12-23T13:08:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[automation@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[n]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.HybridFrameWork.Test2@8a8f7c]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-12-23T13:08:12Z" finished-at="2017-12-23T13:08:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogin status=SUCCESS method=Test2.testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.HybridFrameWork.Test2@8a8f7c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.HybridFrameWork.Test2@8a8f7c]" name="testLogin" duration-ms="1" started-at="2017-12-23T13:08:12Z" data-provider="testData" finished-at="2017-12-23T13:08:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[automation@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.HybridFrameWork.Test2@8a8f7c]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-12-23T13:08:12Z" finished-at="2017-12-23T13:08:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.HybridFrameWork.Test2.testLogin(java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.HybridFrameWork.Test2@8a8f7c]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-12-23T13:08:12Z" finished-at="2017-12-23T13:08:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogin status=SUCCESS method=Test2.testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.HybridFrameWork.Test2@8a8f7c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.HybridFrameWork.Test2@8a8f7c]" name="endTest" is-config="true" duration-ms="520" started-at="2017-12-23T13:08:12Z" finished-at="2017-12-23T13:08:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.HybridFrameWork.Test2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
