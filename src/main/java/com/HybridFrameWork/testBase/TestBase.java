@@ -13,7 +13,6 @@ import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
-import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -29,6 +28,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
 import com.HybridFrameWork.excelReader.Excel_reader;
+import com.HybridFrameWork.helper.loggerHelper.LoggerHelper;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
@@ -37,7 +37,7 @@ import com.relevantcodes.extentreports.LogStatus;
 
 public class TestBase {
 	
-	public static final Logger log = Logger.getLogger(TestBase.class.getName());
+	public static final Logger log = LoggerHelper.getLogger(TestBase.class);
 	public WebDriver driver;
 	public Properties OR;
 	public File F1;
@@ -133,8 +133,8 @@ public class TestBase {
 
 	public void loadPropertiesFiles()throws IOException{
 		
-		String log4jConfPath = "log4j.properties";
-		PropertyConfigurator.configure(log4jConfPath);
+		/*String log4jConfPath = "log4j.properties";
+		PropertyConfigurator.configure(log4jConfPath);*/
 		
 		OR = new Properties();
 		
@@ -252,24 +252,6 @@ public class TestBase {
 		FileUtils.copyFile(image, destFile);
 		
 		return actualImageName;
-	}
-	
-	//There is no polling value, It continuously look for the element.
-	public WebElement waitForElement(WebDriver driver, Long time, WebElement element){
-		WebDriverWait wait = new WebDriverWait(driver, time);
-		return wait.until(ExpectedConditions.elementToBeClickable(element));
-	}
-	
-	//There is no polling value, It wait for the given amount of time for performing poling cycle. Also It will keep on ignoring the NoSuchElementException. 
-	public WebElement waitForElementWithPollingInterval(WebDriver driver, Long time, WebElement element, Long pollingTime){
-		WebDriverWait wait = new WebDriverWait(driver, time);
-		wait.pollingEvery(pollingTime, TimeUnit.SECONDS);
-		wait.ignoring(NoSuchElementException.class);
-		return wait.until(ExpectedConditions.elementToBeClickable(element));
-	}
-	
-	public void impliciteWait(long time){
-		driver.manage().timeouts().implicitlyWait(time, TimeUnit.SECONDS);
 	}
 	
 
