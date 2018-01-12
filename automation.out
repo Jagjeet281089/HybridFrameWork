@@ -1,3 +1,471 @@
 2017-12-23 13:01:16 INFO  TestBase:144 - ######Config.properties file loaded.######
 2017-12-23 13:01:16 INFO  TestBase:149 - ######or.properties file loaded.######
 2017-12-23 13:01:16 INFO  TestBase:154 - ######HomePage.properties file loaded.######
+2017-12-26 18:45:22 INFO  TestBase:157 - ######Config.properties file loaded.######
+2017-12-26 18:45:22 INFO  TestBase:162 - ######or.properties file loaded.######
+2017-12-26 18:45:22 INFO  TestBase:167 - ######HomePage.properties file loaded.######
+2017-12-26 18:45:37 INFO  TestBase:134 - Selected browser Chrome.
+2017-12-26 18:47:08 INFO  TestBase:141 - Opening the URL: https://www.scheduleonce.com
+2017-12-26 18:47:08 INFO  WaitHelper:29 - 20
+2017-12-26 18:47:08 INFO  WaitHelper:35 - 240
+2017-12-26 19:00:14 INFO  TestBase:157 - ######Config.properties file loaded.######
+2017-12-26 19:00:14 INFO  TestBase:162 - ######or.properties file loaded.######
+2017-12-26 19:00:14 INFO  TestBase:167 - ######HomePage.properties file loaded.######
+2017-12-26 19:00:19 INFO  TestBase:134 - Selected browser Chrome.
+2017-12-26 19:01:50 INFO  TestBase:141 - Opening the URL: https://www.scheduleonce.com
+2017-12-26 19:01:50 INFO  WaitHelper:29 - 20
+2017-12-26 19:01:50 INFO  WaitHelper:35 - 240
+2017-12-27 11:56:58 INFO  TestBase:157 - ######Config.properties file loaded.######
+2017-12-27 11:56:58 INFO  TestBase:162 - ######or.properties file loaded.######
+2017-12-27 11:56:58 INFO  TestBase:167 - ######HomePage.properties file loaded.######
+2017-12-27 11:57:03 INFO  TestBase:134 - Selected browser Chrome.
+2017-12-27 11:57:44 INFO  TestBase:141 - Opening the URL: https://www.scheduleonce.com
+2017-12-27 11:57:44 INFO  WaitHelper:29 - 20
+2017-12-27 11:57:44 INFO  WaitHelper:35 - 240
+2017-12-27 18:19:47 INFO  TestBase:155 - ######Config.properties file loaded.######
+2017-12-27 18:19:47 INFO  TestBase:160 - ######or.properties file loaded.######
+2017-12-27 18:19:47 INFO  TestBase:165 - ######HomePage.properties file loaded.######
+2017-12-27 18:19:50 INFO  TestBase:132 - Selected browser Chrome.
+2017-12-27 18:20:12 INFO  TestBase:139 - Opening the URL: https://www.scheduleonce.com
+2017-12-27 18:20:12 INFO  WaitHelper:29 - 20
+2017-12-27 18:20:12 INFO  WaitHelper:35 - 240
+2018-01-06 20:35:40 INFO  TestBase:153 - ######Config.properties file loaded.######
+2018-01-06 20:35:40 INFO  TestBase:158 - ######or.properties file loaded.######
+2018-01-06 20:35:40 INFO  TestBase:163 - ######HomePage.properties file loaded.######
+2018-01-06 20:35:49 INFO  TestBase:103 - Selected browser Chrome.
+2018-01-06 20:35:54 INFO  TestBase:110 - Opening the URL: https://app.scheduleonce.com/SignUp.aspx
+2018-01-06 20:35:54 INFO  WaitHelper:29 - 20
+2018-01-06 20:35:54 INFO  WaitHelper:35 - 240
+2018-01-06 20:35:54 INFO  PageClass:33 - Unable to locate element.
+2018-01-06 20:37:32 INFO  TestBase:153 - ######Config.properties file loaded.######
+2018-01-06 20:37:32 INFO  TestBase:158 - ######or.properties file loaded.######
+2018-01-06 20:37:32 INFO  TestBase:163 - ######HomePage.properties file loaded.######
+2018-01-06 20:37:35 INFO  TestBase:103 - Selected browser Chrome.
+2018-01-06 20:37:40 INFO  TestBase:110 - Opening the URL: https://app.scheduleonce.com/SignUp.aspx
+2018-01-06 20:37:40 INFO  WaitHelper:29 - 20
+2018-01-06 20:37:40 INFO  WaitHelper:35 - 240
+2018-01-06 20:37:40 INFO  PageClass:33 - Unable to locate element.
+2018-01-06 20:39:00 INFO  TestBase:153 - ######Config.properties file loaded.######
+2018-01-06 20:39:00 INFO  TestBase:158 - ######or.properties file loaded.######
+2018-01-06 20:39:00 INFO  TestBase:163 - ######HomePage.properties file loaded.######
+2018-01-06 20:39:05 INFO  TestBase:103 - Selected browser Chrome.
+2018-01-06 20:39:11 INFO  TestBase:110 - Opening the URL: https://app.scheduleonce.com/SignUp.aspx
+2018-01-06 20:39:11 INFO  WaitHelper:29 - 20
+2018-01-06 20:39:11 INFO  WaitHelper:35 - 240
+2018-01-06 20:39:11 INFO  PageClass:33 - Unable to locate element.
+2018-01-06 20:40:08 INFO  TestBase:153 - ######Config.properties file loaded.######
+2018-01-06 20:40:08 INFO  TestBase:158 - ######or.properties file loaded.######
+2018-01-06 20:40:08 INFO  TestBase:163 - ######HomePage.properties file loaded.######
+2018-01-06 20:40:12 INFO  TestBase:103 - Selected browser Chrome.
+2018-01-06 20:40:15 INFO  TestBase:110 - Opening the URL: https://app.scheduleonce.com/SignUp.aspx
+2018-01-06 20:40:15 INFO  WaitHelper:29 - 20
+2018-01-06 20:40:15 INFO  WaitHelper:35 - 240
+2018-01-06 20:40:15 INFO  PageClass:33 - Unable to locate element.
+2018-01-06 20:41:11 INFO  TestBase:153 - ######Config.properties file loaded.######
+2018-01-06 20:41:11 INFO  TestBase:158 - ######or.properties file loaded.######
+2018-01-06 20:41:11 INFO  TestBase:163 - ######HomePage.properties file loaded.######
+2018-01-06 20:41:11 INFO  TestBase:168 - ######SignupPage.properties file loaded.######
+2018-01-06 20:41:14 INFO  TestBase:103 - Selected browser Chrome.
+2018-01-06 20:41:19 INFO  TestBase:110 - Opening the URL: https://app.scheduleonce.com/SignUp.aspx
+2018-01-06 20:41:19 INFO  WaitHelper:29 - 20
+2018-01-06 20:41:19 INFO  WaitHelper:35 - 240
+2018-01-06 20:41:19 INFO  PageClass:33 - Unable to locate element.
+2018-01-06 21:05:44 INFO  TestBase:153 - ######Config.properties file loaded.######
+2018-01-06 21:05:44 INFO  TestBase:158 - ######or.properties file loaded.######
+2018-01-06 21:05:44 INFO  TestBase:163 - ######HomePage.properties file loaded.######
+2018-01-06 21:05:44 INFO  TestBase:168 - ######SignupPage.properties file loaded.######
+2018-01-06 21:05:48 INFO  TestBase:103 - Selected browser Chrome.
+2018-01-06 21:05:52 INFO  TestBase:110 - Opening the URL: https://app.scheduleonce.com/SignUp.aspx
+2018-01-06 21:05:52 INFO  WaitHelper:29 - 20
+2018-01-06 21:05:52 INFO  WaitHelper:35 - 240
+2018-01-06 21:05:52 INFO  PageClass:33 - Unable to locate element.
+2018-01-06 21:10:55 INFO  TestBase:153 - ######Config.properties file loaded.######
+2018-01-06 21:10:55 INFO  TestBase:158 - ######or.properties file loaded.######
+2018-01-06 21:10:55 INFO  TestBase:163 - ######HomePage.properties file loaded.######
+2018-01-06 21:10:55 INFO  TestBase:168 - ######SignupPage.properties file loaded.######
+2018-01-06 21:12:07 INFO  TestBase:153 - ######Config.properties file loaded.######
+2018-01-06 21:12:07 INFO  TestBase:158 - ######or.properties file loaded.######
+2018-01-06 21:12:07 INFO  TestBase:163 - ######HomePage.properties file loaded.######
+2018-01-06 21:12:07 INFO  TestBase:168 - ######SignupPage.properties file loaded.######
+2018-01-06 21:19:24 INFO  TestBase:153 - ######Config.properties file loaded.######
+2018-01-06 21:19:24 INFO  TestBase:158 - ######or.properties file loaded.######
+2018-01-06 21:19:24 INFO  TestBase:163 - ######HomePage.properties file loaded.######
+2018-01-06 21:19:24 INFO  TestBase:168 - ######SignupPage.properties file loaded.######
+2018-01-06 21:19:27 INFO  TestBase:103 - Selected browser Chrome.
+2018-01-06 21:19:32 INFO  TestBase:110 - Opening the URL: https://app.scheduleonce.com/SignUp.aspx
+2018-01-06 21:19:32 INFO  WaitHelper:29 - 20
+2018-01-06 21:19:32 INFO  WaitHelper:35 - 240
+2018-01-06 21:19:32 INFO  PageClass:38 - Unable to locate element.
+2018-01-06 21:38:07 INFO  TestBase:153 - ######Config.properties file loaded.######
+2018-01-06 21:38:07 INFO  TestBase:158 - ######or.properties file loaded.######
+2018-01-06 21:38:07 INFO  TestBase:163 - ######HomePage.properties file loaded.######
+2018-01-06 21:38:12 INFO  TestBase:103 - Selected browser Chrome.
+2018-01-06 21:38:18 INFO  TestBase:110 - Opening the URL: https://app.scheduleonce.com/SignUp.aspx
+2018-01-06 21:38:18 INFO  WaitHelper:29 - 20
+2018-01-06 21:38:18 INFO  WaitHelper:35 - 240
+2018-01-06 21:38:18 INFO  PageClass:58 - Unable to locate element.
+2018-01-06 21:44:17 INFO  TestBase:153 - ######Config.properties file loaded.######
+2018-01-06 21:44:17 INFO  TestBase:158 - ######or.properties file loaded.######
+2018-01-06 21:44:17 INFO  TestBase:163 - ######HomePage.properties file loaded.######
+2018-01-06 21:44:23 INFO  TestBase:103 - Selected browser Chrome.
+2018-01-06 21:44:27 INFO  TestBase:110 - Opening the URL: https://app.scheduleonce.com/SignUp.aspx
+2018-01-06 21:44:27 INFO  WaitHelper:29 - 20
+2018-01-06 21:44:27 INFO  WaitHelper:35 - 240
+2018-01-06 21:44:27 INFO  SignUpPage:61 - Unable to locate element.
+2018-01-06 21:46:01 INFO  TestBase:153 - ######Config.properties file loaded.######
+2018-01-06 21:46:01 INFO  TestBase:158 - ######or.properties file loaded.######
+2018-01-06 21:46:01 INFO  TestBase:163 - ######HomePage.properties file loaded.######
+2018-01-06 21:46:06 INFO  TestBase:103 - Selected browser Chrome.
+2018-01-06 21:46:11 INFO  TestBase:110 - Opening the URL: https://app.scheduleonce.com/SignUp.aspx
+2018-01-06 21:46:11 INFO  WaitHelper:29 - 20
+2018-01-06 21:46:11 INFO  WaitHelper:35 - 240
+2018-01-06 21:51:25 INFO  TestBase:153 - ######Config.properties file loaded.######
+2018-01-06 21:51:25 INFO  TestBase:158 - ######or.properties file loaded.######
+2018-01-06 21:51:25 INFO  TestBase:163 - ######HomePage.properties file loaded.######
+2018-01-06 21:52:24 INFO  TestBase:153 - ######Config.properties file loaded.######
+2018-01-06 21:52:24 INFO  TestBase:158 - ######or.properties file loaded.######
+2018-01-06 21:52:24 INFO  TestBase:163 - ######HomePage.properties file loaded.######
+2018-01-06 21:52:24 INFO  TestBase:168 - ######SignupPage.properties file loaded.######
+2018-01-06 22:00:14 INFO  TestBase:153 - ######Config.properties file loaded.######
+2018-01-06 22:00:14 INFO  TestBase:158 - ######or.properties file loaded.######
+2018-01-06 22:00:14 INFO  TestBase:163 - ######HomePage.properties file loaded.######
+2018-01-06 22:00:14 INFO  TestBase:168 - ######SignupPage.properties file loaded.######
+2018-01-06 22:04:25 INFO  TestBase:153 - ######Config.properties file loaded.######
+2018-01-06 22:04:25 INFO  TestBase:158 - ######or.properties file loaded.######
+2018-01-06 22:04:25 INFO  TestBase:163 - ######HomePage.properties file loaded.######
+2018-01-06 22:04:25 INFO  TestBase:168 - ######SignupPage.properties file loaded.######
+2018-01-06 22:04:30 INFO  TestBase:103 - Selected browser Chrome.
+2018-01-06 22:04:36 INFO  TestBase:110 - Opening the URL: https://app.scheduleonce.com/SignUp.aspx
+2018-01-06 22:04:36 INFO  WaitHelper:29 - 20
+2018-01-06 22:04:36 INFO  WaitHelper:35 - 240
+2018-01-06 22:04:36 INFO  SignUpPage:48 - Unable to locate element.
+2018-01-07 11:16:10 INFO  TestBase:153 - ######Config.properties file loaded.######
+2018-01-07 11:16:10 INFO  TestBase:158 - ######or.properties file loaded.######
+2018-01-07 11:16:10 INFO  TestBase:163 - ######HomePage.properties file loaded.######
+2018-01-07 11:16:10 INFO  TestBase:168 - ######SignupPage.properties file loaded.######
+2018-01-07 11:16:25 INFO  TestBase:103 - Selected browser Chrome.
+2018-01-07 11:16:32 INFO  TestBase:110 - Opening the URL: https://app.scheduleonce.com/SignUp.aspx
+2018-01-07 11:16:32 INFO  WaitHelper:29 - 20
+2018-01-07 11:16:32 INFO  WaitHelper:35 - 240
+2018-01-07 11:35:28 INFO  TestBase:153 - ######Config.properties file loaded.######
+2018-01-07 11:35:28 INFO  TestBase:158 - ######or.properties file loaded.######
+2018-01-07 11:35:28 INFO  TestBase:163 - ######HomePage.properties file loaded.######
+2018-01-07 11:35:28 INFO  TestBase:168 - ######SignupPage.properties file loaded.######
+2018-01-07 11:35:35 INFO  TestBase:103 - Selected browser Chrome.
+2018-01-07 11:35:41 INFO  TestBase:110 - Opening the URL: https://app.scheduleonce.com/SignUp.aspx
+2018-01-07 11:35:41 INFO  WaitHelper:29 - 20
+2018-01-07 11:35:41 INFO  WaitHelper:35 - 240
+2018-01-07 11:35:42 INFO  PropertiesHelper:42 - ######SignupPage.properties file loaded.######
+2018-01-07 11:35:42 INFO  SignUpPage:40 - User Name entered as : Jagjeet Singh
+2018-01-07 11:39:10 INFO  TestBase:153 - ######Config.properties file loaded.######
+2018-01-07 11:39:10 INFO  TestBase:158 - ######or.properties file loaded.######
+2018-01-07 11:39:10 INFO  TestBase:163 - ######HomePage.properties file loaded.######
+2018-01-07 11:39:17 INFO  TestBase:103 - Selected browser Chrome.
+2018-01-07 11:39:23 INFO  TestBase:110 - Opening the URL: https://app.scheduleonce.com/SignUp.aspx
+2018-01-07 11:39:23 INFO  WaitHelper:29 - 20
+2018-01-07 11:39:23 INFO  WaitHelper:35 - 240
+2018-01-07 11:39:23 INFO  PropertiesHelper:42 - ######SignupPage.properties file loaded.######
+2018-01-07 11:39:24 INFO  SignUpPage:40 - User Name entered as : Jagjeet Singh
+2018-01-07 11:49:15 INFO  TestBase:149 - ###### Config. Configuration file loaded. ######
+2018-01-07 11:49:15 INFO  TestBase:154 - ###### OR. Configuration file loaded. ######
+2018-01-07 11:49:20 INFO  TestBase:103 - Selected browser Chrome.
+2018-01-07 11:49:25 INFO  TestBase:110 - Opening the URL: https://app.scheduleonce.com/SignUp.aspx
+2018-01-07 11:49:25 INFO  WaitHelper:29 - 20
+2018-01-07 11:49:25 INFO  WaitHelper:35 - 240
+2018-01-07 11:49:25 INFO  PropertiesHelper:39 - >>>>>> HomePage.properties file loaded. <<<<<<
+2018-01-07 11:49:25 INFO  PropertiesHelper:44 - >>>>>> SignupPage.properties file loaded. <<<<<<
+2018-01-07 11:49:25 INFO  SignUpPage:41 - User Name entered as : Jagjeet Singh
+2018-01-07 11:53:02 INFO  TestBase:149 - ###### Config. Configuration file loaded. ######
+2018-01-07 11:53:02 INFO  TestBase:154 - ###### OR. Configuration file loaded. ######
+2018-01-07 11:53:08 INFO  TestBase:103 - Selected browser Chrome.
+2018-01-07 11:53:14 INFO  TestBase:110 - Opening the URL: https://app.scheduleonce.com/SignUp.aspx
+2018-01-07 11:53:14 INFO  WaitHelper:29 - 20
+2018-01-07 11:53:14 INFO  WaitHelper:35 - 240
+2018-01-07 11:53:14 INFO  PropertiesHelper:39 - >>>>>> HomePage.properties file loaded. <<<<<<
+2018-01-07 11:53:14 INFO  PropertiesHelper:44 - >>>>>> SignupPage.properties file loaded. <<<<<<
+2018-01-07 11:53:14 INFO  SignUpPage:39 - User Name entered as : Jagjeet Singh
+2018-01-07 13:57:14 INFO  TestBase:149 - ###### Config. Configuration file loaded. ######
+2018-01-07 13:57:14 INFO  TestBase:154 - ###### OR. Configuration file loaded. ######
+2018-01-07 13:57:19 INFO  TestBase:103 - Selected browser Chrome.
+2018-01-07 13:57:24 INFO  TestBase:110 - Opening the URL: https://app.scheduleonce.com/SignUp.aspx
+2018-01-07 13:57:24 INFO  WaitHelper:29 - 20
+2018-01-07 13:57:24 INFO  WaitHelper:35 - 240
+2018-01-07 13:57:24 INFO  PropertiesHelper:47 - >>>>>> SignupPage.properties file loaded. <<<<<<
+2018-01-07 13:57:25 INFO  SignUpPage:40 - User Name entered as : Jagjeet Singh
+2018-01-07 13:57:25 INFO  SignUpPage:50 - Email entered as : jagjeetsinghenuke2+automate1@gmail.com
+2018-01-07 13:57:26 INFO  SignUpPage:60 - Password entered as : qaz123wsx
+2018-01-07 13:57:26 INFO  SignUpPage:70 - Re-Password entered as : qaz123wsx
+2018-01-07 13:58:21 INFO  TestBase:149 - ###### Config. Configuration file loaded. ######
+2018-01-07 13:58:21 INFO  TestBase:154 - ###### OR. Configuration file loaded. ######
+2018-01-07 13:58:24 INFO  TestBase:103 - Selected browser Chrome.
+2018-01-07 13:58:29 INFO  TestBase:110 - Opening the URL: https://app.scheduleonce.com/SignUp.aspx
+2018-01-07 13:58:29 INFO  WaitHelper:29 - 20
+2018-01-07 13:58:29 INFO  WaitHelper:35 - 240
+2018-01-07 13:58:29 INFO  PropertiesHelper:47 - >>>>>> SignupPage.properties file loaded. <<<<<<
+2018-01-07 13:58:30 INFO  SignUpPage:40 - User Name entered as : Jagjeet Singh
+2018-01-07 13:58:30 INFO  SignUpPage:50 - Email entered as : jagjeetsinghenuke2+automate1@gmail.com
+2018-01-07 13:58:31 INFO  SignUpPage:60 - Password entered as : qaz123wsx
+2018-01-07 13:58:31 INFO  SignUpPage:70 - Re-Password entered as : qaz123wsx
+2018-01-07 13:58:32 INFO  SignUpPage:80 - Submit Button Pressed.
+2018-01-08 13:11:03 INFO  TestBase:149 - ###### Config. Configuration file loaded. ######
+2018-01-08 13:11:03 INFO  TestBase:154 - ###### OR. Configuration file loaded. ######
+2018-01-08 13:11:15 INFO  TestBase:103 - Selected browser Chrome.
+2018-01-08 13:11:23 INFO  TestBase:110 - Opening the URL: https://app.scheduleonce.com/SignUp.aspx
+2018-01-08 13:11:23 INFO  WaitHelper:29 - 20
+2018-01-08 13:11:23 INFO  WaitHelper:35 - 240
+2018-01-08 13:11:23 INFO  PropertiesHelper:47 - >>>>>> SignupPage.properties file loaded. <<<<<<
+2018-01-08 13:11:24 INFO  SignUpPage:89 - Email entered as : randomeamil@gmail.com
+2018-01-08 13:11:25 INFO  SignUpPage:99 - Password entered as : qaz123wsx
+2018-01-08 13:11:25 INFO  SignUpPage:109 - Re-Password entered as : qaz123wsx
+2018-01-08 13:11:25 INFO  SignUpPage:119 - Submit Button Pressed.
+2018-01-08 13:11:25 INFO  GenericHelper:20 - Element [[ChromeDriver: chrome on XP (8cea35af918c0eed633d4e80c87feb5e)] -> id: SignUpNameAlert]is displayed.
+2018-01-08 13:11:57 INFO  TestBase:149 - ###### Config. Configuration file loaded. ######
+2018-01-08 13:11:57 INFO  TestBase:154 - ###### OR. Configuration file loaded. ######
+2018-01-08 13:12:00 INFO  TestBase:103 - Selected browser Chrome.
+2018-01-08 13:12:19 INFO  TestBase:110 - Opening the URL: https://app.scheduleonce.com/SignUp.aspx
+2018-01-08 13:12:19 INFO  WaitHelper:29 - 20
+2018-01-08 13:12:19 INFO  WaitHelper:35 - 240
+2018-01-08 13:12:19 INFO  PropertiesHelper:47 - >>>>>> SignupPage.properties file loaded. <<<<<<
+2018-01-08 13:12:19 INFO  SignUpPage:89 - Email entered as : randomeamil@gmail.com
+2018-01-08 13:12:20 INFO  SignUpPage:99 - Password entered as : qaz123wsx
+2018-01-08 13:12:20 INFO  SignUpPage:109 - Re-Password entered as : qaz123wsx
+2018-01-08 13:12:21 INFO  SignUpPage:119 - Submit Button Pressed.
+2018-01-08 13:12:21 INFO  GenericHelper:20 - Element [[ChromeDriver: chrome on XP (d2a5d819418aa3bd50fb5f1025e4aa3a)] -> id: SignUpNameAlert]is displayed.
+2018-01-08 13:12:21 INFO  GenericHelper:20 - Element [[ChromeDriver: chrome on XP (d2a5d819418aa3bd50fb5f1025e4aa3a)] -> id: SignUpNameAlert]is displayed.
+2018-01-08 13:12:21 INFO  GenericHelper:67 - weblement valus is..Name is a required field
+2018-01-08 13:13:43 INFO  TestBase:149 - ###### Config. Configuration file loaded. ######
+2018-01-08 13:13:43 INFO  TestBase:154 - ###### OR. Configuration file loaded. ######
+2018-01-08 13:13:46 INFO  TestBase:103 - Selected browser Chrome.
+2018-01-08 13:13:54 INFO  TestBase:110 - Opening the URL: https://app.scheduleonce.com/SignUp.aspx
+2018-01-08 13:13:54 INFO  WaitHelper:29 - 20
+2018-01-08 13:13:54 INFO  WaitHelper:35 - 240
+2018-01-08 13:13:54 INFO  PropertiesHelper:47 - >>>>>> SignupPage.properties file loaded. <<<<<<
+2018-01-08 13:13:54 INFO  SignUpPage:89 - Email entered as : randomeamil@gmail.com
+2018-01-08 13:13:55 INFO  SignUpPage:99 - Password entered as : qaz123wsx
+2018-01-08 13:13:55 INFO  SignUpPage:109 - Re-Password entered as : qaz123wsx
+2018-01-08 13:13:55 INFO  SignUpPage:119 - Submit Button Pressed.
+2018-01-08 13:13:56 INFO  GenericHelper:20 - Element [[ChromeDriver: chrome on XP (c8e5423abff0cbf689688a5ccf978e12)] -> id: SignUpNameAlert]is displayed.
+2018-01-08 13:13:56 INFO  PropertiesHelper:47 - >>>>>> SignupPage.properties file loaded. <<<<<<
+2018-01-08 13:13:56 INFO  GenericHelper:20 - Element [[ChromeDriver: chrome on XP (c8e5423abff0cbf689688a5ccf978e12)] -> id: SignUpNameAlert]is displayed.
+2018-01-08 13:13:56 INFO  GenericHelper:67 - weblement valus is..Name is a required field
+2018-01-08 18:31:32 INFO  TestBase:149 - ###### Config. Configuration file loaded. ######
+2018-01-08 18:31:32 INFO  TestBase:154 - ###### OR. Configuration file loaded. ######
+2018-01-08 18:31:45 INFO  TestBase:103 - Selected browser Chrome.
+2018-01-08 18:31:51 INFO  TestBase:110 - Opening the URL: https://app.scheduleonce.com/SignUp.aspx
+2018-01-08 18:31:51 INFO  WaitHelper:29 - 20
+2018-01-08 18:31:51 INFO  WaitHelper:35 - 240
+2018-01-08 18:31:51 INFO  PropertiesHelper:56 - >>>>>> SignupPage.properties file loaded. <<<<<<
+2018-01-08 18:31:52 INFO  SignUpPage:89 - Email entered as : randomeamil@gmail.com
+2018-01-08 18:31:52 INFO  SignUpPage:153 - Password entered as : qaz123wsx
+2018-01-08 18:31:53 INFO  SignUpPage:163 - Re-Password entered as : qaz123wsx
+2018-01-08 18:31:53 INFO  SignUpPage:173 - Submit Button Pressed.
+2018-01-08 18:31:53 INFO  GenericHelper:20 - Element [[ChromeDriver: chrome on XP (018bdab06a79448dadce8114e65f1c05)] -> id: SignUpNameAlert]is displayed.
+2018-01-08 18:31:53 INFO  SignUpPage:89 - Email entered as : randomeamil@gmail.com
+2018-01-08 18:31:54 INFO  SignUpPage:153 - Password entered as : qaz123wsx
+2018-01-08 18:31:54 INFO  SignUpPage:163 - Re-Password entered as : qaz123wsx
+2018-01-08 18:31:54 INFO  SignUpPage:173 - Submit Button Pressed.
+2018-01-08 18:31:54 INFO  GenericHelper:20 - Element [[ChromeDriver: chrome on XP (018bdab06a79448dadce8114e65f1c05)] -> id: SignUpNameAlert]is displayed.
+2018-01-08 18:31:54 INFO  GenericHelper:67 - weblement valus is..Name is a required field
+2018-01-09 16:28:29 INFO  TestBase:149 - ###### Config. Configuration file loaded. ######
+2018-01-09 16:28:29 INFO  TestBase:154 - ###### OR. Configuration file loaded. ######
+2018-01-09 16:28:37 INFO  TestBase:103 - Selected browser Chrome.
+2018-01-09 16:29:57 INFO  TestBase:110 - Opening the URL: https://app.scheduleonce.com/SignUp.aspx
+2018-01-09 16:29:57 INFO  WaitHelper:29 - 20
+2018-01-09 16:29:57 INFO  WaitHelper:35 - 240
+2018-01-09 16:29:57 INFO  PropertiesHelper:56 - >>>>>> SignupPage.properties file loaded. <<<<<<
+2018-01-09 16:29:57 INFO  SignUpPage:89 - Email entered as : randomeamil@gmail.com
+2018-01-09 16:29:58 INFO  SignUpPage:153 - Password entered as : qaz123wsx
+2018-01-09 16:29:58 INFO  SignUpPage:163 - Re-Password entered as : qaz123wsx
+2018-01-09 16:29:58 INFO  SignUpPage:173 - Submit Button Pressed.
+2018-01-09 16:29:58 INFO  GenericHelper:20 - Element [[ChromeDriver: chrome on XP (79ebe84b0c6fa9afb8f51fc588c1c4d7)] -> id: SignUpNameAlert]is displayed.
+2018-01-09 16:29:58 INFO  SignUpPage:89 - Email entered as : randomeamil@gmail.com
+2018-01-09 16:29:59 INFO  SignUpPage:153 - Password entered as : qaz123wsx
+2018-01-09 16:29:59 INFO  SignUpPage:163 - Re-Password entered as : qaz123wsx
+2018-01-09 16:29:59 INFO  SignUpPage:173 - Submit Button Pressed.
+2018-01-09 16:29:59 INFO  GenericHelper:20 - Element [[ChromeDriver: chrome on XP (79ebe84b0c6fa9afb8f51fc588c1c4d7)] -> id: SignUpNameAlert]is displayed.
+2018-01-09 16:29:59 INFO  GenericHelper:67 - weblement valus is..Name is a required field
+2018-01-10 12:34:30 INFO  TestBase:149 - ###### Config. Configuration file loaded. ######
+2018-01-10 12:34:30 INFO  TestBase:154 - ###### OR. Configuration file loaded. ######
+2018-01-10 13:42:41 INFO  TestBase:149 - ###### Config. Configuration file loaded. ######
+2018-01-10 13:42:41 INFO  TestBase:154 - ###### OR. Configuration file loaded. ######
+2018-01-10 13:42:44 INFO  TestBase:103 - Selected browser Chrome.
+2018-01-10 13:42:52 INFO  TestBase:110 - Opening the URL: https://app.scheduleonce.com/SignUp.aspx
+2018-01-10 13:42:52 INFO  WaitHelper:29 - 20
+2018-01-10 13:42:52 INFO  WaitHelper:35 - 240
+2018-01-10 13:42:52 INFO  PropertiesHelper:50 - >>>>>> SignupPage.properties file loaded. <<<<<<
+2018-01-10 13:44:24 INFO  TestBase:149 - ###### Config. Configuration file loaded. ######
+2018-01-10 13:44:24 INFO  TestBase:154 - ###### OR. Configuration file loaded. ######
+2018-01-10 13:44:27 INFO  TestBase:103 - Selected browser Chrome.
+2018-01-10 13:44:35 INFO  TestBase:110 - Opening the URL: https://app.scheduleonce.com/SignUp.aspx
+2018-01-10 13:44:35 INFO  WaitHelper:29 - 20
+2018-01-10 13:44:35 INFO  WaitHelper:35 - 240
+2018-01-10 13:44:35 INFO  PropertiesHelper:50 - >>>>>> SignupPage.properties file loaded. <<<<<<
+2018-01-10 13:44:35 INFO  SignUpPage:88 - Email entered as : randomeamil@gmail.com
+2018-01-10 13:44:36 INFO  SignUpPage:124 - Password entered as : qaz123wsx
+2018-01-10 13:44:36 INFO  SignUpPage:130 - Re-Password entered as : qaz123wsx
+2018-01-10 13:44:36 INFO  SignUpPage:135 - Submit Button Pressed.
+2018-01-10 13:44:36 INFO  GenericHelper:20 - Element [[ChromeDriver: chrome on XP (b43a5addd46b5114d3699a611d7618d5)] -> id: SignUpNameAlert]is displayed.
+2018-01-10 13:44:37 INFO  SignUpPage:88 - Email entered as : randomeamil@gmail.com
+2018-01-10 13:44:37 INFO  SignUpPage:124 - Password entered as : qaz123wsx
+2018-01-10 13:44:37 INFO  SignUpPage:130 - Re-Password entered as : qaz123wsx
+2018-01-10 13:44:37 INFO  SignUpPage:135 - Submit Button Pressed.
+2018-01-10 13:44:37 INFO  GenericHelper:20 - Element [[ChromeDriver: chrome on XP (b43a5addd46b5114d3699a611d7618d5)] -> id: SignUpNameAlert]is displayed.
+2018-01-10 13:44:37 INFO  GenericHelper:67 - weblement valus is..Name is a required field
+2018-01-10 18:24:29 INFO  TestBase:149 - ###### Config. Configuration file loaded. ######
+2018-01-10 18:24:29 INFO  TestBase:154 - ###### OR. Configuration file loaded. ######
+2018-01-10 18:24:33 INFO  TestBase:103 - Selected browser Chrome.
+2018-01-10 18:24:42 INFO  TestBase:110 - Opening the URL: https://app.scheduleonce.com/SignUp.aspx
+2018-01-10 18:24:42 INFO  WaitHelper:29 - 20
+2018-01-10 18:24:42 INFO  WaitHelper:35 - 240
+2018-01-10 18:24:42 INFO  PropertiesHelper:50 - >>>>>> SignupPage.properties file loaded. <<<<<<
+2018-01-10 18:24:42 INFO  SignUpPage:158 - Everything Cleared.
+2018-01-10 18:24:43 INFO  SignUpPage:104 - Email entered as : randomeamil@gmail.com
+2018-01-10 18:24:43 INFO  SignUpPage:133 - Password entered as : qaz123wsx
+2018-01-10 18:24:43 INFO  SignUpPage:139 - Re-Password entered as : qaz123wsx
+2018-01-10 18:24:43 INFO  SignUpPage:146 - Submit Button Pressed.
+2018-01-10 18:24:43 INFO  GenericHelper:20 - Element [[ChromeDriver: chrome on XP (baa19685ef11466aacdfbcb543d09127)] -> id: SignUpNameAlert]is displayed.
+2018-01-10 18:24:44 INFO  SignUpPage:158 - Everything Cleared.
+2018-01-10 18:24:44 INFO  SignUpPage:104 - Email entered as : randomeamil@gmail.com
+2018-01-10 18:24:44 INFO  SignUpPage:133 - Password entered as : qaz123wsx
+2018-01-10 18:24:45 INFO  SignUpPage:139 - Re-Password entered as : qaz123wsx
+2018-01-10 18:24:45 INFO  SignUpPage:146 - Submit Button Pressed.
+2018-01-10 18:24:45 INFO  GenericHelper:20 - Element [[ChromeDriver: chrome on XP (baa19685ef11466aacdfbcb543d09127)] -> id: SignUpNameAlert]is displayed.
+2018-01-10 18:24:45 INFO  GenericHelper:67 - weblement valus is..Name is a required field
+2018-01-10 18:24:45 INFO  SignUpPage:158 - Everything Cleared.
+2018-01-10 18:24:45 INFO  SignUpPage:79 - User Name entered as : Jagjeet Singh
+2018-01-10 18:24:46 INFO  SignUpPage:104 - Email entered as : jagjeetsinghenuke2+automate1@gmail.com
+2018-01-10 18:24:46 INFO  SignUpPage:133 - Password entered as : qaz123wsx
+2018-01-10 18:24:46 INFO  SignUpPage:139 - Re-Password entered as : qaz123wsx
+2018-01-10 18:31:00 INFO  TestBase:149 - ###### Config. Configuration file loaded. ######
+2018-01-10 18:31:00 INFO  TestBase:154 - ###### OR. Configuration file loaded. ######
+2018-01-10 18:31:03 INFO  TestBase:103 - Selected browser Chrome.
+2018-01-10 18:31:11 INFO  TestBase:110 - Opening the URL: https://app.scheduleonce.com/SignUp.aspx
+2018-01-10 18:31:11 INFO  WaitHelper:29 - 20
+2018-01-10 18:31:11 INFO  WaitHelper:35 - 240
+2018-01-10 18:31:11 INFO  PropertiesHelper:50 - >>>>>> SignupPage.properties file loaded. <<<<<<
+2018-01-10 18:31:11 INFO  SignUpPage:158 - Everything Cleared.
+2018-01-10 18:31:12 INFO  SignUpPage:79 - User Name entered as : Jagjeet Singh
+2018-01-10 18:31:12 INFO  SignUpPage:104 - Email entered as : jagjeetsinghenuke2+automate1@gmail.com
+2018-01-10 18:31:12 INFO  SignUpPage:133 - Password entered as : qaz123wsx
+2018-01-10 18:31:13 INFO  SignUpPage:139 - Re-Password entered as : qaz123wsx
+2018-01-10 18:48:08 INFO  TestBase:149 - ###### Config. Configuration file loaded. ######
+2018-01-10 18:48:08 INFO  TestBase:154 - ###### OR. Configuration file loaded. ######
+2018-01-10 18:48:12 INFO  TestBase:103 - Selected browser Chrome.
+2018-01-10 18:48:18 INFO  TestBase:110 - Opening the URL: https://app.scheduleonce.com/SignUp.aspx
+2018-01-10 18:48:18 INFO  WaitHelper:29 - 20
+2018-01-10 18:48:18 INFO  WaitHelper:35 - 240
+2018-01-10 18:48:18 INFO  PropertiesHelper:50 - >>>>>> SignupPage.properties file loaded. <<<<<<
+2018-01-10 18:48:19 INFO  SignUpPage:158 - Everything Cleared.
+2018-01-10 18:48:19 INFO  SignUpPage:79 - User Name entered as : Jagjeet Singh
+2018-01-10 18:48:19 INFO  SignUpPage:104 - Email entered as : jagjeetsinghenuke2+automate1@gmail.com
+2018-01-10 18:48:20 INFO  SignUpPage:133 - Password entered as : qaz123wsx
+2018-01-10 18:48:20 INFO  SignUpPage:139 - Re-Password entered as : qaz123wsx
+2018-01-10 18:52:13 INFO  TestBase:149 - ###### Config. Configuration file loaded. ######
+2018-01-10 18:52:13 INFO  TestBase:154 - ###### OR. Configuration file loaded. ######
+2018-01-10 18:52:16 INFO  TestBase:103 - Selected browser Chrome.
+2018-01-10 18:52:24 INFO  TestBase:110 - Opening the URL: https://app.scheduleonce.com/SignUp.aspx
+2018-01-10 18:52:24 INFO  WaitHelper:29 - 20
+2018-01-10 18:52:24 INFO  WaitHelper:35 - 240
+2018-01-10 18:52:24 INFO  PropertiesHelper:50 - >>>>>> SignupPage.properties file loaded. <<<<<<
+2018-01-10 18:52:24 INFO  SignUpPage:158 - Everything Cleared.
+2018-01-10 18:52:25 INFO  SignUpPage:79 - User Name entered as : Jagjeet Singh
+2018-01-10 18:52:25 INFO  SignUpPage:104 - Email entered as : jagjeetsinghenuke2+automate1@gmail.com
+2018-01-10 18:52:25 INFO  SignUpPage:133 - Password entered as : qaz123wsx
+2018-01-10 18:52:26 INFO  SignUpPage:139 - Re-Password entered as : qaz123wsx
+2018-01-10 18:55:39 INFO  TestBase:149 - ###### Config. Configuration file loaded. ######
+2018-01-10 18:55:39 INFO  TestBase:154 - ###### OR. Configuration file loaded. ######
+2018-01-10 18:55:42 INFO  TestBase:103 - Selected browser Chrome.
+2018-01-10 18:55:50 INFO  TestBase:110 - Opening the URL: https://app.scheduleonce.com/SignUp.aspx
+2018-01-10 18:55:50 INFO  WaitHelper:29 - 20
+2018-01-10 18:55:50 INFO  WaitHelper:35 - 240
+2018-01-10 18:55:50 INFO  PropertiesHelper:50 - >>>>>> SignupPage.properties file loaded. <<<<<<
+2018-01-10 18:55:52 INFO  BrowserHelper:25 - Navigating to page: https://app.scheduleonce.com/SignUp.aspx?e=5
+2018-01-10 18:55:52 INFO  SignUpPage:177 - Opened SignUp page as Premium User.
+2018-01-10 18:55:52 INFO  SignUpPage:158 - Everything Cleared.
+2018-01-10 18:55:52 INFO  SignUpPage:79 - User Name entered as : Jagjeet Singh
+2018-01-10 18:55:53 INFO  SignUpPage:104 - Email entered as : jagjeetsinghenuke2+automate1@gmail.com
+2018-01-10 18:55:53 INFO  SignUpPage:133 - Password entered as : qaz123wsx
+2018-01-10 18:55:53 INFO  SignUpPage:139 - Re-Password entered as : qaz123wsx
+2018-01-10 19:10:56 INFO  TestBase:149 - ###### Config. Configuration file loaded. ######
+2018-01-10 19:10:56 INFO  TestBase:154 - ###### OR. Configuration file loaded. ######
+2018-01-10 19:10:59 INFO  TestBase:103 - Selected browser Chrome.
+2018-01-10 19:11:05 INFO  TestBase:110 - Opening the URL: https://app.scheduleonce.com/SignUp.aspx
+2018-01-10 19:11:05 INFO  WaitHelper:29 - 20
+2018-01-10 19:11:05 INFO  WaitHelper:35 - 240
+2018-01-10 19:11:56 INFO  TestBase:149 - ###### Config. Configuration file loaded. ######
+2018-01-10 19:11:56 INFO  TestBase:154 - ###### OR. Configuration file loaded. ######
+2018-01-10 19:11:59 INFO  TestBase:103 - Selected browser Chrome.
+2018-01-10 19:12:05 INFO  TestBase:110 - Opening the URL: https://app.scheduleonce.com/SignUp.aspx
+2018-01-10 19:12:05 INFO  WaitHelper:29 - 20
+2018-01-10 19:12:05 INFO  WaitHelper:35 - 240
+2018-01-10 19:12:05 INFO  PropertiesHelper:50 - >>>>>> SignupPage.properties file loaded. <<<<<<
+2018-01-10 19:12:07 INFO  BrowserHelper:25 - Navigating to page: https://app.scheduleonce.com/SignUp.aspx?e=5
+2018-01-10 19:12:07 INFO  SignUpPage:178 - Opened SignUp page as Premium User.
+2018-01-10 19:12:07 INFO  SignUpPage:159 - Everything Cleared.
+2018-01-10 19:12:07 INFO  SignUpPage:77 - User Name entered as : Jagjeet Singh
+2018-01-10 19:12:08 INFO  SignUpPage:102 - Email entered as : jagjeetsinghenuke2+automate1@gmail.com
+2018-01-10 19:12:08 INFO  SignUpPage:131 - Password entered as : qaz123wsx
+2018-01-10 19:12:08 INFO  SignUpPage:136 - Re-Password entered as : qaz123wsx
+2018-01-10 19:12:08 INFO  PropertiesHelper:37 - >>>>>> HomePage.properties file loaded. <<<<<<
+2018-01-10 19:12:08 INFO  PropertiesHelper:37 - >>>>>> HomePage.properties file loaded. <<<<<<
+2018-01-10 19:33:49 INFO  TestBase:149 - ###### Config. Configuration file loaded. ######
+2018-01-10 19:33:49 INFO  TestBase:154 - ###### OR. Configuration file loaded. ######
+2018-01-10 19:33:52 INFO  TestBase:103 - Selected browser Chrome.
+2018-01-10 19:33:58 INFO  TestBase:110 - Opening the URL: https://app.scheduleonce.com/SignUp.aspx
+2018-01-10 19:33:58 INFO  WaitHelper:29 - 20
+2018-01-10 19:33:58 INFO  WaitHelper:35 - 240
+2018-01-10 19:33:58 INFO  PropertiesHelper:50 - >>>>>> SignupPage.properties file loaded. <<<<<<
+2018-01-10 19:34:00 INFO  BrowserHelper:25 - Navigating to page: https://app.scheduleonce.com/SignUp.aspx?e=5
+2018-01-10 19:34:00 INFO  SignUpPage:167 - Opened SignUp page as Premium User.
+2018-01-10 19:34:00 INFO  SignUpPage:148 - Everything Cleared.
+2018-01-10 19:34:00 INFO  SignUpPage:77 - User Name entered as : Jagjeet Singh
+2018-01-10 19:34:01 INFO  SignUpPage:102 - Email entered as : Jagjeetsinghenuke_1515593038976@gmail.com
+2018-01-10 19:34:01 INFO  SignUpPage:132 - Password entered as : qaz123wsx
+2018-01-10 19:34:01 INFO  SignUpPage:137 - Re-Password entered as : qaz123wsx
+2018-01-10 19:34:01 INFO  PropertiesHelper:37 - >>>>>> HomePage.properties file loaded. <<<<<<
+2018-01-10 21:54:12 INFO  TestBase:149 - ###### Config. Configuration file loaded. ######
+2018-01-10 21:54:12 INFO  TestBase:154 - ###### OR. Configuration file loaded. ######
+2018-01-10 22:12:11 INFO  TestBase:144 - >>>>> Config. Configuration file loaded. <<<<<<
+2018-01-10 22:25:54 INFO  TestBase:145 - >>>>> Config. Configuration file loaded. <<<<<<
+2018-01-10 22:32:09 INFO  TestBase:146 - >>>>> Config. Configuration file loaded. <<<<<<
+2018-01-10 23:00:50 INFO  TestBase:146 - >>>>> Config. Configuration file loaded. <<<<<<
+2018-01-10 23:00:54 INFO  TestBase:100 - Selected browser Chrome.
+2018-01-10 23:01:02 INFO  TestBase:107 - Opening the URL: https://app.scheduleonce.com/SignUp.aspx
+2018-01-10 23:01:02 INFO  WaitHelper:29 - 20
+2018-01-10 23:01:02 INFO  WaitHelper:35 - 240
+2018-01-10 23:01:02 INFO  PropertiesHelper:50 - >>>>>> SignupPage.properties file loaded. <<<<<<
+2018-01-10 23:02:03 INFO  TestBase:146 - >>>>> Config. Configuration file loaded. <<<<<<
+2018-01-10 23:02:05 INFO  TestBase:100 - Selected browser Chrome.
+2018-01-10 23:02:09 INFO  TestBase:107 - Opening the URL: https://app.scheduleonce.com/SignUp.aspx
+2018-01-10 23:02:09 INFO  WaitHelper:29 - 20
+2018-01-10 23:02:09 INFO  WaitHelper:35 - 240
+2018-01-10 23:02:09 INFO  PropertiesHelper:50 - >>>>>> SignupPage.properties file loaded. <<<<<<
+2018-01-10 23:11:44 INFO  TestBase:145 - >>>>> Config. Configuration file loaded. <<<<<<
+2018-01-10 23:19:22 INFO  TestBase:144 - >>>>> Config. Configuration file loaded. <<<<<<
+2018-01-10 23:19:25 INFO  TestBase:98 - Selected browser Chrome.
+2018-01-10 23:19:29 INFO  TestBase:105 - Opening the URL: https://app.scheduleonce.com/SignUp.aspx
+2018-01-10 23:19:29 INFO  WaitHelper:29 - 20
+2018-01-10 23:19:29 INFO  WaitHelper:35 - 240
+2018-01-10 23:19:29 INFO  PropertiesHelper:50 - >>>>>> SignupPage.properties file loaded. <<<<<<
+2018-01-11 11:01:43 INFO  TestBase:144 - >>>>> Config. Configuration file loaded. <<<<<<
+2018-01-11 11:01:50 INFO  TestBase:98 - Selected browser Chrome.
+2018-01-11 11:01:56 INFO  TestBase:105 - Opening the URL: https://app.scheduleonce.com/SignUp.aspx
+2018-01-11 11:01:56 INFO  WaitHelper:29 - 20
+2018-01-11 11:01:56 INFO  WaitHelper:35 - 240
+2018-01-11 11:01:56 INFO  PropertiesHelper:50 - >>>>>> SignupPage.properties file loaded. <<<<<<
+2018-01-11 11:01:57 INFO  BrowserHelper:25 - Navigating to page: https://app.scheduleonce.com/SignUp.aspx?e=5
+2018-01-11 11:01:57 INFO  SignUpPage:156 - Opened SignUp page as Premium User.
+2018-01-11 11:01:58 INFO  SignUpPage:137 - Everything Cleared.
+2018-01-11 11:01:58 INFO  SignUpPage:66 - User Name entered as : Jagjeet Singh
+2018-01-11 11:01:58 INFO  SignUpPage:91 - Email entered as : Jagjeetsinghenuke+1515648716429@gmail.com
+2018-01-11 11:01:59 INFO  SignUpPage:121 - Password entered as : qaz123wsx
+2018-01-11 11:01:59 INFO  SignUpPage:126 - Re-Password entered as : qaz123wsx
+2018-01-11 11:01:59 INFO  PropertiesHelper:37 - >>>>>> HomePage.properties file loaded. <<<<<<
+2018-01-11 11:02:09 INFO  TestBase:144 - >>>>> Config. Configuration file loaded. <<<<<<
+2018-01-11 11:02:14 INFO  TestBase:98 - Selected browser Chrome.
+2018-01-11 11:02:21 INFO  TestBase:105 - Opening the URL: https://app.scheduleonce.com/SignUp.aspx
+2018-01-11 11:02:21 INFO  WaitHelper:29 - 20
+2018-01-11 11:02:21 INFO  WaitHelper:35 - 240
+2018-01-11 11:02:21 INFO  PropertiesHelper:50 - >>>>>> SignupPage.properties file loaded. <<<<<<
+2018-01-11 11:02:22 INFO  BrowserHelper:25 - Navigating to page: https://app.scheduleonce.com/SignUp.aspx?e=2
+2018-01-11 11:02:22 INFO  SignUpPage:153 - Opened SignUp page as Plus User.

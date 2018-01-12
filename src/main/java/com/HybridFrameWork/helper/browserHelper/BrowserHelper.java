@@ -20,6 +20,10 @@ public class BrowserHelper {
 		log.debug("BrowserHelper : " + this.driver.hashCode());
 	}
 
+	public void gotoPage(String url) {
+		driver.get(url);
+		log.info("Navigating to page: "+ url);
+	}
 	
 	public void goBack() {
 		driver.navigate().back();

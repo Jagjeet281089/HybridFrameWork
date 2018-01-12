@@ -1,22 +1,22 @@
 package com.HybridFrameWork;
 
-import org.testng.annotations.DataProvider;
+
 import org.testng.annotations.Test;
 
 import com.HybridFrameWork.testBase.TestBase;
-
+import com.HybridFrameWork.uiActions.SignUpPage;
 
 
 public class Test2 extends TestBase{
 	
-	@DataProvider(name = "testData")
-	public Object[][] getLoginData(){
-		Object[][] data = getData("TestData.xlsx", "LoginTestData");
-		return data;
+	
+	SignUpPage sup;
+	
+	@Test
+	public void test1(){
+		sup = new SignUpPage(driver);
+		sup.doSignUpAs(sup.Premium, "Jagjeet Singh", sup.generateRandomEmail(),"qaz123wsx");
 	}
 	
-	@Test(dataProvider = "testData")
-	public void testLogin(String Login, String Password, String runMode){
-		System.out.println(Login+","+Password+","+runMode);
-	}
+	
 }
